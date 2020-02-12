@@ -1,0 +1,32 @@
+// helpfull classes
+.flex{
+  display: flex;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.align-center{
+  align-items: center;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.mt0{
+  margin-top: 0!important;
+}
+
+body.fixScroll{
+  overflow: hidden;
+}
+
+.show-sm{
+  display: none;
+  @include sm{
+    display: block!important;
+  }
+}
+

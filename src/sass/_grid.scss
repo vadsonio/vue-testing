@@ -1,0 +1,44 @@
+//custom styles
+.container{
+  padding: 0 15px;
+  margin: 0 auto;
+  min-width: 320px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .container{
+    max-width: 540px;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .container{
+    padding: 0 30px;
+    max-width: 750px;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .container{
+    padding: 0;
+    max-width: 964px;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .container{
+    padding: 0 15px;
+    max-width: 1170px;
+  }
+}
+
+
+
+

@@ -1,0 +1,42 @@
+// Small devices (other)
+@mixin sm {
+  @media (max-width: #{$screen-sm-min}){
+    @content
+  }
+}
+
+// Medium devices (768px)
+@mixin md {
+  @media (max-width: #{$screen-md-min}){
+    @content
+  }
+}
+
+// Large devices (992px)
+@mixin lg{
+  @media (max-width: #{$screen-lg-min}){
+    @content
+  }
+}
+
+// Extra large devices (1170px)
+@mixin xl{
+  @media (max-width: #{$screen-xl-min}){
+    @content
+  }
+}
+
+// Custom devices
+@mixin rwd($screen){
+  @media (max-width: $screen+'px'){
+    @content
+  }
+}
+
+
+// retina displays background
+@mixin retinaBG{
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi){
+    @content
+  }
+}
